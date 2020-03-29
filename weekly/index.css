@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	#wrapper {
+	    column-count: 3
+        }
+
+    body {
+		background-color: #FFFFFF;
+		margin: 0 10%;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+ 	 }
+	
+	h1 {
+		text-align: left;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-weight: 575px;
+		border-bottom: 1px solid;
+		margin-top: 25px;
+		margin-left: -25px;
+	}
+
+	h2 {
+  	 
+		color: #8D8D8D;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-weight: 300;
+		margin-top: -15px;
+		margin-left: -25px;
+ 	
+	}
+	
+	h3 {
+		color: #000000;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 16px;
+		margin-left: -25px;
+	}
+
