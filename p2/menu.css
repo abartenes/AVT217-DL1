@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+body {
+	width:960px;
+	margin: 0 auto;
+	line-height: 1;
+	font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+ol, ul, li {
+	list-style: none;
+}
+
+li{
+	float:left;
+	font-weight:300;
+}
+
+h2 {
+	font-family: "bebas-neue",sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	color: #8F0002;
+	padding-bottom:25px;
+}
+
+.menuitems p {
+	max-width: 445px;
+	float:left;
+	line-height:18px; 
+}
+
+.menuitems li {
+	float:left;
+}
+
+.foodphoto {
+	float:right;
+	margin-right:40px;
+}
+
+.cost {
+	font-weight:bold;
+	color: #8F0002;
+}
+
+#toppings p {
+	line-height: 20px;
+}
+
+header{
+	color: white;
+	width:960px;
+	float:left;
+	height: 794px;
+	background-image:url("img/raysmenu.png");
+	background-repeat:no-repeat;
+	clear:both;
+}
+
+nav{
+
+	padding-top:135px;
+	margin-left:148px;
+}
+
+#nav-right{
+	float:right;
+	margin-top:-60px;
+	margin-right:148px;
+}
+
+#nav-right li{
+	margin-right:15px;
+
+}
+
+#hero-head{
+	margin-left: 50px;
+	font-family: "bebas-neue",sans-serif;
+	font-weight: 400;
+}
+
+#hero-head h1 {
+	margin: auto;
+	font-size:22px;
+}
+
+#hero-head h2 {
+	margin: auto;
+	font-size:22px;
+}
+
+#hero-head p{
+	margin: auto;
+	font-size:22px;
+}
+	
+.menuitems h3 {
+	font-family: "bebas-neue",sans-serif;
+	font-weight: 550;
+	font-size: 18px;
+}
+
+article li {
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+#logo{
+	margin-left:375px;
+	margin-top:140px;
+}
+
+article{
+	width:960px;
+	clear:both;
+	padding-top:70px;
+	margin-left:50px;
+	margin-right:10px;
+}
+
+section{
+	max-width:960px;
+	
+}
+
+#burgers {
+	clear:both;
+	width:960px;
+	padding-bottom:75px;
+	float:left;
+}
+
+#hotdogs {
+	clear:both;
+	width:960px;
+	padding-bottom:51px;
+	float:left;
+}
+
+#sandwiches {
+	clear:both;
+	width:960px;
+	padding-bottom:46px;
+	float:left;
+}
+
+#fries {
+	clear:both;
+	width:960px;
+	padding-bottom:37px;
+	float:left;
+}
+
+
+#toppings {
+	clear:both;
+	width:960px;
+	padding-bottom:36px;
+	float:left;
+}
+
+footer {
+	clear:both;
+	float:left;
+	background-color: #343434;
+	height:155px;
+	width:960px;
+	margin-top:-10px;
+	padding-top:10px;
+}
+
+#bottomcopyright {
+	float:left;
+	margin-left:10px;
+	padding-top:10px;
+	
+}
+
+#topleft {
+	font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:white;
+	padding-left:20px;
+	padding-top: 5px;
+	font-size:14px;
+	line-height: 18px;
+	float:left;
+	margin-top:-100px;
+}
+
+#topleft p {
+	font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #C5C5C5;
+	font-size:14px;
+	line-height: 18px;
+	float:left;
+	padding-top:45px;
+}
+
+#footerright {
+	width:920px;
+	color: white;
+	text-align: right;
+	float:right;
+	padding-right:20px;
+	font-size:24px;
+	padding-top: 5px;
+}
+
+#footerright img {
+	max-height: 58px;
+	max-width: 160px;
+	padding-top: 15px;
+}
+
+footer a:link    {color:white; background-color:transparent; text-decoration:none}
+footer a:visited {color:#C5C5C5;}
+footer a:hover   {color:#8F0002; background-color:transparent; text-decoration:none}
+
+nav a:link    {color:white; background-color:transparent; text-decoration:none}
+nav a:visited {color:white}
+nav a:hover   {color:#8F0002; background-color:transparent; text-decoration:none}
+
+#nav-right a:link    {color:white; background-color:transparent; text-decoration:none}
+#nav-right a:visited {color:white}
+#nav-right a:hover   {color:#8F0002; background-color:transparent; text-decoration:none}
+
+#hero-head a:link    {color:white; background-color:transparent; text-decoration:none}
+#hero-head a:visited {color:white}
+#hero-head a:hover   {color:#8F0002; background-color:transparent; text-decoration:none}
+
