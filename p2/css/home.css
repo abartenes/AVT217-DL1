@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/* CSS Starts Here*/
+
+body {
+	width:960px;
+	margin:0 auto;
+	line-height:1;
+	font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+header {
+	color:white;
+	width:960px;
+	height:503px;
+	float:left;
+	background-image:url("../img/homepage.png");
+	background-repeat:no-repeat;
+	clear:both;
+	margin:0 auto;
+}
+
+.navbar {
+	margin:0 auto;
+}
+
+.navbar a {
+	float:left;
+	padding:12px;
+	padding-top:25px;
+	color:white;
+	text-decoration:none;
+	font-size:26px;
+	font-weight:500;
+	width:22%;
+	text-align:center;
+	align-content:center;
+}
+
+#logo{
+	margin:0 auto;
+	padding-top:125px;
+	padding-bottom:45px;
+	max-height:210px;
+	max-width:210px;
+}
+
+#hero-head {
+	text-align: center;
+	margin:0 auto;
+	font-family:"bebas-neue",sans-serif;
+	font-weight:300;
+	column-count:3;
+}
+
+h1 {
+	font-family:"bebas-neue",sans-serif;
+	font-weight:550;
+	font-size:26px;
+	text-align: center;
+	color:white;
+	padding-top:5px;
+}
+
+#veggiesand {
+	width:959px;
+	height:436px;
+	background-image:url("../img/veggiesandwhich.png");
+	background-repeat:no-repeat;
+	margin:15px auto;
+	display:inline-block;
+	float:left;
+}
+
+#veggiesand h2 {
+	font-family:"bebas-neue",sans-serif;
+	font-size:30px;
+	font-weight:700;
+	padding-left:5px;
+	padding-top:15px;
+	color:#9dc21a;
+}
+
+#veggiesand p {
+	font-family:"bebas-neue",sans-serif;
+	font-size:30px;
+	font-weight:700;
+	text-align:right;
+	padding-right:25px;
+	padding-top:350px;
+	color:white;
+}
+
+article{
+	clear:both;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.boxes {
+	margin:15px 5px;
+	display:inline-block;
+	float:left;
+}
+ 
+#leftbox {
+	background-image:url("../img/frenchfries.png");
+	background-repeat:no-repeat;
+	width:303px; 
+	height:430px;
+}
+
+#middlebox{
+	background-image:url("../img/burgerad.png");
+	background-repeat:no-repeat;
+	width:303px; 
+	height:430px;
+	color:white;
+}
+
+.boxes h2 {
+	text-align:center;
+	font-family:"bebas-neue",sans-serif;
+	font-size:27px;
+	font-weight:700;
+	padding-top:15px;
+	padding-bottom:315px;
+}
+
+.boxes p {
+	text-align:center;
+	font-family:"bebas-neue",sans-serif;
+	font-size:27px;
+	font-weight:700;
+}
+	
+#rightbox {
+	background-image:url("../img/mobilead copy.png");
+	background-repeat:no-repeat;
+	width:303px; 
+	height:430px;
+}
+
+#info {
+	background-image:url("../img/locationad.png");
+	background-repeat:no-repeat;
+	width:940px;
+  	margin:0 auto;
+}
+
+#info h2{
+	font-family:"bebas-neue",sans-serif;
+	font-size:40px;
+	font-weight:700;
+	padding-bottom:5px;
+	padding-top:10px;
+	padding-left:5px;
+	color:white;
+}
+
+#info p{
+	font-family:'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-size:25px;
+	padding-bottom:22px;
+	padding-left:5px;
+	font-weight:350;
+}
+
+footer {
+    clear:both;
+    background-color:#202020;
+    width:960px;
+    padding-top:10px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+#footerright {
+	width:920px;
+	color:white;
+	text-align:right;
+	float:right;
+	padding-right:20px;
+	font-size:24px;
+	padding-top:5px;
+}
+
+#footerright img {
+	max-height:58px;
+	max-width:160px;
+	padding-top:15px;
+}
+
+#topleft {
+    font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
+    color:white;
+    padding-left:20px;
+    font-size:14px;
+    line-height:18px;
+    float:left;
+	margin-top:-100px;
+}
+
+#topleft p {
+	font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:#C5C5C5;
+	font-size:14px;
+	line-height:18px;
+	float:left;
+	padding-top:45px;
+	padding-bottom:10px;
+}
+
+footer a:link    {color:white; background-color:transparent; text-decoration:none}
+footer a:visited {color:#C5C5C5;}
+footer a:hover   {color:#8F0002; background-color:transparent; text-decoration:none}
+
+.navbar a:active {color:white; background-color:transparent; text-decoration:none}
+.navbar a:visited {color:white; background-color:transparent; text-decoration:none}
+.navbar a:hover {color:#8F0002; background-color:transparent; text-decoration:none}
+
+#hero-head a:link    {color:white; background-color:transparent; text-decoration:none}
+#hero-head a:visited {color:white}
+#hero-head a:hover   {color:#8F0002; background-color:transparent; text-decoration:none}

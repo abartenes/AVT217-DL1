@@ -3,31 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <title>Ray's Menu</title>
-	<link rel="stylesheet" href="menu.css">
+	<link rel="stylesheet" href="css/menu.css">
 </head>
-<a id="top"></a>
+	<a id="top"></a>
+	
 <body>
 	<header>
-		<nav>
-			<li><a href="home.html">Home</a></li>
-			<li><a href="">About Us</a></li>
-		</nav><!--left side of nav-->
-		
+		<div class="navbar">
+				<a href="home.html">Home</a>
+				<a href="#location" class="smoothScroll">About Us</a>
+				<a href="menu.html">Menu</a>
+				<a href="#location" class="smoothScroll">Contact</a>
+			</div>
 		<div id="logo">
-			<a href="home.html"><img src="img/rayslogo copy.png" alt="logo"></a>
-		</div>
-		
-		<div id="nav-right"><!---right side of nav-->
-			<li><a href="">Menu</a></li>
-			<li><a href="">Contact</a></li>
-		</div>
-		
+				<img src="img/rayslogo copy.png" alt="rays logo">
+			</div>
 		<div id="hero-head">
-			<p><a href="#menu" class="smoothScroll"></a></p>
-				<h1>Contact Us<br>(703) 555-RAYS</h1>
-				<h2>Location<br>1234 Wilson Boulevard<br>Arlington, VA 21234</h2>
-				<p>Hours<br>Daily | 11:00am - 10:00pm</p>
-		</div><!--hero photo ends-->
+				<div class="column"><h1>Contact Us</h1><br>(703) 555-RAYS</div>
+				<div class="column"><h1>Location</h1><br>1234 Wilson Boulevard<br>Arlington, VA 21234</div>
+				<div class="column"><h1>Hours</h1><br>Daily | 11:00am - 10:00pm</div>
+    	    </div>
 	</header>
 	
 <article><!---begin menu-->
@@ -36,7 +31,7 @@
 			<img src="img/burger.png" alt="burgers">
 		</div>
 		<div class="menuitems">
-			<h2><a id="menu">BURGERS</a></h2>
+			<h2>BURGERS</h2>
 			<ul>
 				<li><h3>HAMBURGER</h3>
 					<p>Classic quarter pound burger, with Ray's secret sauce</p><span class="cost">$5.29</span></li>
@@ -83,7 +78,7 @@
 		</div>
 		<div class="menuitems">
 			<h2>SANDWICHES</h2>
-		<ul>
+			<ul>
 				<li><h3>FRESH VEGGIES</h3>
 					<p>Fresh veggies piled high on your choice of bread</p><span class="cost">$2.69</span></li>
 				<li><h3>CHEESE AND VEGGIES</h3>
@@ -119,30 +114,27 @@
 		</div>
 		<div class="menuitems">
 			<h2>COMPLIMENTARY TOPPINGS</h2>
-			<p>Lettuce, Tomato, Grilled Onions, Raw Red Onions, Pickle, Charred Jalapeños, Cognac and Sherry Sautéed Mushrooms, Roasted Garlic, Fiery Pirañha Sauce, BBQ Sauce, Mayonnaise</p>
+				<p>Lettuce, Tomato, Grilled Onions, Raw Red Onions, Pickles, Charred<br>
+				Jalapeños, Cognac and Sherry Sautéed Mushrooms, Roasted Garlic,<br> 
+				Fiery Pirañha Sauce, BBQ Sauce, Mayonnaise</p>
 		</div>
 	</section><!---end toppings--->
-		
 	</article><!---end menu--->
 	
 	<footer>
-			
 		<section id="footerright">
 			<p>Follow Us...<br>
-			<img src="img/socialmedia.png" alt="social media logos">
-			</p>
+			<img src="img/socialmedia.png" alt="social media logos"></p>
 			</section>
 		
 		<div id="topleft">
 			<dl>
 			<dd><a href="#top" class="smoothScroll">BACK TO TOP</a></dd>
-				<dd>About | Join Ray's eClub | Careers</dd>
+			<dd>About | Join Ray's eClub | Careers</dd>
 			<p>Site designed by Amanda Bartenes<br>Copyright 2020 - All Rights Reserved</p>
 			</dl>
 		</div>
 	</footer>
 	
-
 </body>
 </html>
-
