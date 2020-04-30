@@ -1,0 +1,293 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* CSS Starts Here*/
+
+
+
+/* Page 1 Starts Here*/
+
+#page1 header {
+	height: 427px;
+	width: 1020px;
+	background-image: url("../img/work.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 80px;
+	margin: 0 auto;	
+}
+
+#page1 h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	text-align: left;
+	color: white;
+	padding-top: 250px;
+	padding-bottom: 15px;
+	padding-left: 45px;
+}
+
+#page1 h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	color: white;
+	padding-left: 45px;
+}
+
+/* Page 1 Ends Here*/
+
+
+/* Page 2 Starts Here*/
+
+#page2 header {
+	height: 427px;
+	width: 1020px;
+	background-image: url("../img/aboutme.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 80px;
+	margin: 0 auto;	
+}
+
+#page2 h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	text-align: left;
+	color: white;
+	padding-top: 250px;
+	padding-bottom: 15px;
+	padding-left: 45px;
+}
+
+#page2 h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	color: white;
+	padding-left: 45px;
+	
+}
+
+#page2 h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: left;
+	padding-left: 200px;
+	padding-top: 65px;
+	padding-bottom: 35px;
+}
+
+#page2 h4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: right;
+	padding-right: 200px;
+	padding-bottom: 200px;
+}
+
+#page2 p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 200px;
+	padding-bottom: 50px;
+}
+
+/* Page 2 Ends Here*/
+
+
+/* Page 3 Starts Here*/
+
+#page3 header {
+	height: 427px;
+	width: 1020px;
+	background-image: url("../img/contact.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 80px;
+	margin: 0 auto;	
+}
+
+#page3 h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	text-align: left;
+	color: white;
+	padding-top: 250px;
+	padding-bottom: 15px;
+	padding-left: 45px;
+}
+
+#page3 h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	padding-left: 45px;
+	
+}
+
+/* Page 3 Ends Here*/
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	font-family: 'Raleway', sans-serif;
+}
+
+input[type=submit] {
+	color: white;
+	background-color: black;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: hotpink;
+}
+
+.container {
+	padding: 40px 20px;
+	padding-right: 45px;
+	margin-right: 30px;
+	width: 950px;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+	width:400px;
+	float: left;
+}
+.navbar a {
+	float: left;
+	padding: 12px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	color: black;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#logo {
+	height: 73px;
+	width: 139px;
+	float: left;
+	padding-left: 35px;
+}
+
+#socialmedia {
+	height: 66px;
+	width: 188px;
+	float: right;
+	padding-top: 13px;
+}
+
+.fa {
+	padding: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+#gallery { 
+	width: 1020px; 
+	background-color: white; 
+	padding: 5px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+#gallery img { 
+	padding: 5px;
+	width: 32%
+}
+
+footer {
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+
+footer a:link    {color:black; background-color:transparent; text-decoration:none}
+footer a:visited {color:black;}
+footer a:hover   {color:hotpink; background-color:transparent; text-decoration:none}
+
+.navbar a:active  {color:black; background-color:transparent; text-decoration:none}
+.navbar a:visited {color:black; background-color:transparent; text-decoration:none}
+.navbar a:hover   {color:hotpink; background-color:transparent; text-decoration:none}
+
+#socialmedia a:link    {color:black; background-color:transparent; text-decoration:none}
+#socialmedia a:visited {color:black; background-color:transparent; text-decoration:none}
+#socialmedia a:hover   {color:hotpink; background-color:transparent; text-decoration:none}
+
+h4 a:link    {color:black; background-color:transparent; text-decoration:none}
+h4 a:visited {color:black; background-color:transparent; text-decoration:none}
+h4 a:hover   {color:hotpink; background-color:transparent; text-decoration:none}
+
+#hero-head a:link    {color:black; background-color:transparent; text-decoration:none}
+#hero-head a:visited {color:black}
+#hero-head a:hover   {color:hotpink; background-color:transparent; text-decoration:none}
+
